@@ -35,5 +35,8 @@ def extract_field(text, keyword):
                 return parts[1].strip()
     return "Not found"
 
+import os
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host='0.0.0.0', port=port)
