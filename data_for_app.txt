@@ -1,0 +1,14 @@
+
+Name: Aisha Khan
+Age: 34
+Gender: Female
+
+Diagnosis: Type 2 Diabetes Mellitus
+Medications: Metformin 500mg twice daily, Glipizide 5mg once daily
+
+Allergies: None
+Blood Pressure: 130/85 mmHg
+Heart Rate: 78 bpm
+
+Notes:
+Patient reports fatigue and increased thirst. Advised dietary changes and regular exercise. Follow-up scheduled in 4 weeks.

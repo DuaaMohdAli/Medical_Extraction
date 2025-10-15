@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Medical Data Extractor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Clinical Data Extractor</h1>
+    <div class="notebook-header">
+      <label for="date">Date:</label>
+      <input type="date" id="date" />
+    </div>
+    <form id="uploadForm">
+      <input type="file" id="fileInput" accept=".pdf,.txt" required />
+      <button type="submit">Extract Data</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
